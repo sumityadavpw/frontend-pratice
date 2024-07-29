@@ -1,13 +1,17 @@
+import './App.css';
 
-import './App.css'
+import { Routes } from 'react-router-dom';
 
 function App() {
+ 
+   return (
+    <>
+    <Routes>
+      {/* Route path= "/" element= {<Home/>} ></Route>  */}
 
-  return (
-  <>
-  lms
-  </>
-  )
+    </Routes>
+    </>
+   )
 }
 
 export default App
